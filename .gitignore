@@ -362,12 +362,16 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
-*/NoviceResources
-*/NoviceResources/*
-*/NoviceResources/**/*
+# ---- NoviceResources（どの階層でも）----
+**/NoviceResources/
+# ※ これ1行で配下も全部無視できる
+
+# ---- Visual Studio 関連 ----
 *.vcxproj.filters
 *.vcxproj.user
 *.vcxproj.ide
 *.sdf
 *.opensdf
-*.sln
+
+# 必要なら（通常は .sln は管理することが多い）
+# *.sln
