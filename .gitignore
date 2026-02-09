@@ -370,6 +370,7 @@ FodyWeavers.xsd
 *.vcxproj.filters
 *.vcxproj.user
 *.vcxproj.ide
+*.vcxproj
 *.sdf
 *.opensdf
 
